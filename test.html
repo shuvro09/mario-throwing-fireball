@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-image: url("img1.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100vw 100vh;
+            background-attachment: fixed;
+            position: relative;
+            background-color: #ad3a3a
+        }
+
+        #img-mario {
+            position: absolute;
+            top: 82vh;
+            left: 0vw;
+            height: 13vh;
+            width: 10vw;
+            z-index: 1;
+        }
+
+        #myCanvas {
+            border: #ad3a3a;
+            margin: 0
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id='myCanvas'>
+    </canvas>
+    <img src="mario.png" id="img-mario">
+    <script src="marioScript.js"></script>
+</body>
+
+</html>
