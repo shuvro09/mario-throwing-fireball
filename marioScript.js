@@ -5,7 +5,7 @@ canvas.height = window.innerHeight
 var c = canvas.getContext("2d")
 console.log(canvas)
 var img = new Image()
-img.src = "images/fireball.png"
+img.src = "fireball.png"
 x = 0
 a = canvas.width * 0.1
 b = canvas.height * 0.77
